@@ -1,0 +1,93 @@
+body{
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tableaustyle{
+    display: block;
+    margin: auto;
+}
+
+li{
+    color: white;
+    font-size: large;
+}
+
+h1{
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 90px;
+    padding: 5px;
+    text-align: center;
+}
+
+.header{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.footer {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically if needed */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: medium;
+    color: black;
+    background-color: white;
+}
+
+.mainstuff {
+    position: absolute;
+    top: 1010px;
+    color: white;
+    display: block;
+    font-size: larger;
+    text-decoration: overline underline;
+    text-align: center; /* Centers text horizontally */
+    left: 50%; /* Align the element to the middle of the container */
+    transform: translateX(-50%); /* Shift it back by half of its own width */
+}
+
+
+.mainpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    font-size: x-large;
+}
+
+
+.tableau-container {
+    width: 80%; /* Adjust this to control the width */
+    margin: 0 auto; /* Centers the container */
+    overflow: hidden; /* Prevents horizontal overflow if necessary */
+}
+
+#go-to-top {
+    color: white; /* Sets the text color to white */
+    font-size: larger; /* Increases the font size */
+    text-decoration: underline; /* Underlines the text */
+    display: block; /* Makes the link a block-level element */
+    margin-top: 20px; /* Adds some space above the link */
+    margin-bottom: 25px; /* Adds some space below the link */
+    text-align: left; /* Aligns the text to the left */
+}
+
+
+
+
+
